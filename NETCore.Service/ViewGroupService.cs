@@ -20,7 +20,7 @@ namespace NETCore.Service
             this.viewDal = viewRepository;
         }
 
-        [Caching(AbsoluteExpiration = 1)] ///AOP切面缓存
+        [Caching(AbsoluteExpiration = 1)] ///AOP切面缓存 测试示例
         /// <summary>
         /// 多表联合查询获取明细
         /// </summary>
