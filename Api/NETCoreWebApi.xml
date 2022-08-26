@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NETCoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:NETCoreWebApi.Controllers.BrandController">
+            <summary>
+            品牌接口
+            </summary>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.Brand(NETCore.Model.Entity.Brand)">
+            <summary>
+            获取Brand实体
+            </summary>
+            <param name="brand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.GetBrand(System.Int32)">
+            <summary>
+            品牌信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.AddBrand(NETCore.Model.Entity.Brand)">
+             <summary>
+            新增品牌信息
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.UpdateBrand(NETCore.Model.Entity.Brand)">
+             <summary>
+            更新品牌信息
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.GetDtl">
+             <summary>
+            获取多表明细
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.Redis(System.Int32)">
+            <summary>
+            测试Redis
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.BrandController.AopTest(System.Int32)">
+            <summary>
+            测试aop缓存redis
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NETCoreWebApi.Controllers.RoleController">
+            <summary>
+            接口权限验证
+            </summary>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.RoleController.Admin">
+            <summary>
+            需要Admin权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.RoleController.System">
+            <summary>
+            需要System权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.RoleController.SystemAndAdmin">
+            <summary>
+            需要System和Admin权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.RoleController.ParseToken">
+            <summary>
+            解析Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NETCoreWebApi.Controllers.UserController">
+            <summary>
+            用户信息接口
+            </summary>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.UserController.Hello">
+            <summary>
+            接口测试Hello
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.UserController.User(NETCore.Model.Entity.User)">
+            <summary>
+            获取User实体
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.UserController.Login(System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.UserController.LogTest">
+            <summary>
+            测试日志
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Controllers.UserController.Throw">
+            <summary>
+            抛出异常
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NETCoreWebApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+                Autofac规则配置
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NETCore.Caching\NETCore.Caching.csproj" />
+    <ProjectReference Include="..\NETCore.IRepository\NETCore.IRepository.csproj" />
+    <ProjectReference Include="..\NETCore.IService\NETCore.IService.csproj" />
+    <ProjectReference Include="..\NETCore.Repository\NETCore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
