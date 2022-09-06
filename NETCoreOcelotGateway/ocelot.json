@@ -1,0 +1,68 @@
+{
+  "Routes": [
+    //APITest1
+    {
+      "UpstreamPathTemplate": "/api/test1/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8801
+        }
+      ],
+      "DownstreamPathTemplate": "/api/test1/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "http://localhost:8800",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    //APITest1服务swagger
+    {
+      "UpstreamPathTemplate": "/test1/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8801
+        }
+      ],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+
+    //APITest2
+    {
+      "UpstreamPathTemplate": "/api/test2/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8802
+        }
+      ],
+      "DownstreamPathTemplate": "/api/test2/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "http://localhost:8800",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    //APITest2服务swagger
+    {
+      "UpstreamPathTemplate": "/test2/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8802
+        }
+      ],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    }
+
+  ]
+}

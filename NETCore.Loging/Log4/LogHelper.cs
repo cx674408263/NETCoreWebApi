@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Concurrent;
 
-namespace NETCore.Loging
+namespace NETCore.Loging.Log4
 {
     /// <summary>
     /// Log4 弃用

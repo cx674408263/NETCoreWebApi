@@ -1,14 +1,9 @@
-﻿using NETCore.Loging;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NETCore.Components.Helper;
-using NETCore.Model;
+using NETCore.Loging.Log4;
 using NETCore.Model.Entity;
 using NETCore.Model.ViewModel;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NETCoreWebApi.Controllers
 {

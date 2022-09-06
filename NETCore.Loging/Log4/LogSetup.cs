@@ -3,11 +3,9 @@ using log4net.Config;
 using log4net.Repository;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
-namespace NETCore.Loging
+namespace NETCore.Loging.Log4
 {
     public static class LogSetup
     {

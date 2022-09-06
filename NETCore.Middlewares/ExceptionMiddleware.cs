@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using NETCore.Components.Helper;
-using NETCore.Loging;
+using NETCore.Loging.Log4;
 using System;
 using System.Threading.Tasks;
 

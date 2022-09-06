@@ -1,6 +1,5 @@
 
 using Autofac;
-using NETCore.Loging;
 using IGeekFan.AspNetCore.Knife4jUI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,6 +15,7 @@ using NETCore.Filter;
 using NETCore.Repository.Sugar;
 using System;
 using NETCore.Middlewares;
+using NETCore.Loging.Log4;
 
 namespace NETCoreWebApi
 {
